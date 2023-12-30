@@ -1,0 +1,9 @@
+chromedriver_path = r"C:\MyTools\Python\chromedriver-win64\chromedriver.exe"
+workspace = r"D:\UCF\Data Engineering\CNT_5805_Networks\Network Data\Tourism" # top project folder
+downloads = r"C:\Users\Craig\Downloads"  # Change to your user download folder
+TOPIC = "ALL"  # Topic to search for.  Use all for TOPIC_ALL list
+N_AUTHORS = 100      # Number of authors to collect
+TOPIC_ALL = "label:tourism OR label:tourism_marketing OR label:tourism_management OR label:tourism_economics OR label:destination_marketing OR label:Hotel_and_Tourism_management OR label:tourist_behavior OR label:tourism_impacts OR label:sustainable_tourism"
+GRAPH_FOLDER = "GraphALLTourMgmt5Year"
+YEARS_PRIOR = 5  # of years of publications to pull
+INCLUDE_NONTOPIC_COAUTH=False  # Add nodes for coauthors not found in original authors list.
