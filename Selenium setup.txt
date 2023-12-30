@@ -1,0 +1,28 @@
+pip install selenium
+
+Download Chrome WebDriver:
+https://chromedriver.chromium.org/downloads
+
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+Be sure to upgrade chrome to the same version
+https://www.google.com/chrome/update/
+
+
+Extract and copy path name:
+C:\MyTools\Python\chromedriver-win64
+
+To see what directories are already on PATH, open a Command Prompt and execute:
+
+echo %PATH%
+If the location to your driver is not already in a directory listed, you can add a new directory to PATH:
+
+setx PATH "%PATH%;C:\MyTools\Python\chrome-win64"
+You can test if it has been added correctly by checking the version of the driver:
+
+chromedriver.exe --version
+
+
+https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+116.0.5845.188
